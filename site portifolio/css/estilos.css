@@ -108,15 +108,15 @@ nav ul li a:hover {
 }
 
 .portifolio {
-  margin-left: 25%;
-  margin-right: 25%;
+  display: grid;
+  place-items: center;
 }
 
 .caixa {
   margin: 20px;
   padding: 20px;
   background-color: var(--second-bg-color);
-  width: 950px;
+  width: 940px;
   border-radius: 10px;
   box-shadow: var(--neon-box-shadow);
 }
